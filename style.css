@@ -1,0 +1,38 @@
+h1{
+    color: red;
+    text-align: center;
+}
+h1::after{
+    content: '';
+    width: 20%;
+    height: 2px;
+    margin: auto;
+    border: 3px solid #f9004d;
+    display: block;
+    margin-top: 20px;
+    background-color: #f9004d;
+
+}
+body{
+    background-color: azure;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+h3::after{
+    content: '';
+    width: 10%;
+    height: 2px;
+    margin: auto;
+    margin-right: 100%;
+    border: 3px solid #f9004d;
+    display: block;
+    margin-top: 20px;
+    background-color: #f9004d;
+}
+article{
+    margin: 10px;
+}
