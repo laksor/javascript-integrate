@@ -35,4 +35,29 @@ h3::after{
 }
 article{
     margin: 10px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0 0 10px gray;
+    border-radius: 10px;
+}
+p{
+    line-height: 1.5rem;
+}
+#second{
+    
+}
+a{
+    text-decoration: none;
+    border: 1px solid;
+    padding: 5px;
+}
+a:hover{
+    color: ;
+    background-color: rgb(19, 218, 118);
+}
+span{
+    color: red;
+}
+span:hover{
+    color: black;
 }
