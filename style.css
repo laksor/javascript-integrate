@@ -43,16 +43,13 @@ article{
 p{
     line-height: 1.5rem;
 }
-#second{
-    
-}
 a{
     text-decoration: none;
     border: 1px solid;
     padding: 5px;
 }
 a:hover{
-    color: ;
+    
     background-color: rgb(19, 218, 118);
 }
 span{
@@ -60,4 +57,22 @@ span{
 }
 span:hover{
     color: black;
+}
+h2{
+    text-align: center;
+}
+button{
+    margin-left: 45px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 0;
+    color: black;
+    box-shadow: 0 0 8px gray;
+    
+}
+button:hover{
+    transition: all .5s ease 0s;
+    transform: scale(1.2);
+    background-color: aqua;
+    cursor: pointer;
 }
