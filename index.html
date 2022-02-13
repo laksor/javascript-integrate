@@ -34,6 +34,8 @@
         </section>
 
         <section>
+            <!-- onclick event handler  -->
+
             <h2>Events onclick handler</h2>
 
             <button onclick="document.body.style.backgroundColor = 'yellow'">Click Me yellow - 1</button>
@@ -43,6 +45,7 @@
             <button id="blue-button">Click Me blue - 3, must use</button>
 
             <!--add event listener -->
+
             <h2>add Event Listener</h2>
 
             <button id="red-button">Click Me Red - 1</button>
@@ -53,7 +56,34 @@
 
             <!-- common ways to set event handlers -->
 
+            <h2>common ways to set Event handlers</h2>
 
+            <p id="nama"></p>
+            <input id="name-field" type="text">
+            <button id="update-name">Update</button>
+
+            <p id="clickingMethod"></p>
+
+            <button onclick="handelJustFunctionClick()">Just Function</button>
+
+            <button id="handel-event">Direct add Event Listener</button>
+
+        </section>
+        <section style="margin-bottom: 90px;">
+            <h2>Add your comment please</h2>
+            <div id="comment-area">
+                <h3 style="margin-left: 45px;">Your comments</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure repudiandae quaerat aspernatur quam, itaque laboriosam provident quis facilis culpa aut soluta corrupti veritatis libero nobis praesentium ipsa incidunt id suscipit.</p>
+
+                <p>Asperiores neque ipsum eaque, reiciendis cumque recusandae blanditiis reprehenderit magnam laboriosam modi. Ipsa dolor velit ullam natus nulla exercitationem pariatur ducimus laudantium et tempora, possimus excepturi eaque laborum facere sunt!</p>
+
+            </div>
+            <div class="comment-post">
+                
+                <textarea style="margin-left: 45px;" name="" id="text-area" cols="50" rows="6"></textarea>
+                <br>
+                <button id="submit-comment">Post</button>
+            </div>
         </section>
     </main>
     <script src="script.js"></script>

@@ -67,12 +67,19 @@ button{
     border-radius: 10px;
     border: 0;
     color: black;
-    box-shadow: 0 0 8px gray;
+    box-shadow: 0 0 5px gray;
     
 }
 button:hover{
     transition: all .5s ease 0s;
-    transform: scale(1.2);
+    transform: scale(1.1);
     background-color: aqua;
     cursor: pointer;
+    color: rgb(46, 14, 231);
+}
+input{
+    margin-left: 45px;
+}
+p{
+    margin-left: 45px;
 }
