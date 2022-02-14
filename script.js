@@ -69,3 +69,35 @@ document.getElementById('submit-comment').addEventListener('click', function (){
 
     commentBox.value = '';
 })
+// delete confirmation button
+document.getElementById("delete-btn").addEventListener('click', function(){
+    document.getElementById("secret-info").style.display = 'none';
+});
+// focus
+document.getElementById("input-area").addEventListener('focus', function () {
+    document.body.style.backgroundColor = 'lightcoral';
+});
+// blur
+document.getElementById("input-area").addEventListener('blur', function () {
+    document.body.style.backgroundColor = 'white';
+});
+
+// keyup
+document.getElementById("input-area").addEventListener('keyup', function (event) {
+    const deleteBtn = document.getElementById("delete-btn");
+    if(event.target.value == 'delete'){
+        deleteBtn.removeAttribute('disabled');
+    }
+    else{
+        deleteBtn.setAttribute('disabled', true);
+    }
+
+});
+
+// card vanished
+
+document.getElementById("button").addEventListener('click', function(){
+    document.getElementById("vanished").style.display = 'none';
+});
+
+ 
